@@ -38,7 +38,7 @@ This codebase uses TDS for knowledge management. Before generating code:
 
 ## TDS Structure
 
-### Present Layer (Comments)
+### Guides Layer (Comments)
 
 -   TODO: Known issues needing attention
 -   HACK: Temporary workarounds with context
@@ -46,13 +46,13 @@ This codebase uses TDS for knowledge management. Before generating code:
 -   LEARNING: Fresh discoveries and insights
 -   FIXME: Bugs requiring immediate attention
 
-### Past Layer (Anchors)
+### Anchors Layer (Anchors)
 
 -   `/anchors/domain/` - Business domain knowledge
 -   `/anchors/integrations/` - External service learnings
 -   `/anchors/lessons-learned/` - Technical discoveries
 
-### Protection Layer (Patterns)
+### Patterns Layer (Patterns)
 
 -   `/patterns/error-handling/` - Error handling patterns
 -   `/patterns/integrations/` - Integration safety patterns
@@ -172,7 +172,7 @@ Create `.claude/project-context.md`:
 
 This project uses TDS for knowledge management across three temporal layers:
 
-### Present Layer (Active Context)
+### Guides Layer (Active Context)
 
 Comments in code capture immediate discoveries and context:
 
@@ -182,7 +182,7 @@ Comments in code capture immediate discoveries and context:
 -   LEARNING: Fresh discoveries and insights
 -   FIXME: Bugs requiring immediate attention
 
-### Past Layer (Institutional Memory)
+### Anchors Layer (Institutional Memory)
 
 Anchors preserve lessons learned and domain knowledge:
 
@@ -190,7 +190,7 @@ Anchors preserve lessons learned and domain knowledge:
 -   `/anchors/integrations/` - External service learnings
 -   `/anchors/lessons-learned/` - Technical discoveries
 
-### Protection Layer (Proven Patterns)
+### Patterns Layer (Proven Patterns)
 
 Patterns provide reusable solutions and safeguards:
 
@@ -421,7 +421,7 @@ Generate error handling code using:
 
 #### Knowledge Evolution
 
--   **AI-discovered patterns** promoted to protection layer
+-   **AI-discovered patterns** promoted to patterns layer
 -   **Anchor updates** based on AI interactions
 -   **Pattern refinements** from AI usage
 

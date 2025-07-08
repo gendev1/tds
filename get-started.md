@@ -54,18 +54,18 @@ Learn from others' experiences and measure your progress.
 
 ## What is TDS?
 
-TDS organizes knowledge across three temporal contexts:
+TDS organizes knowledge across three functional layers:
 
--   **Present Layer**: Active discoveries and current context (code comments)
--   **Past Layer**: Institutional knowledge and lessons learned (anchor documents)
--   **Protection Layer**: Safeguards against repeated mistakes (patterns)
+-   **Guides**: Active discoveries and current context (code comments that guide development)
+-   **Anchors**: Institutional knowledge and lessons learned (anchor documents)
+-   **Patterns**: Safeguards against repeated mistakes (protective patterns)
 
 ## The Knowledge Flow Pipeline
 
 ```
-1. DISCOVER (Present)
+1. DISCOVER (Guides)
    ↓
-2. LEARN (Promotion to Past)
+2. LEARN (Promotion to Anchors)
    ↓
 3. PROTECT (Pattern Extraction)
    ↓
@@ -94,19 +94,19 @@ TDS organizes knowledge across three temporal contexts:
 
 ## Getting Started Checklist
 
-### Week 1: Present Layer
+### Week 1: Guides Layer
 
 -   [ ] Read [Philosophy](philosophy.md) and [Temporal Layers](temporal-layers.md)
 -   [ ] Start adding meaningful comments (TODO, HACK, NOTE, LEARNING)
 -   [ ] Focus on capturing surprises and discoveries
 
-### Week 2-4: Past Layer
+### Week 2-4: Anchors Layer
 
 -   [ ] Follow [Setup Guide](setup-guide.md) directory structure
 -   [ ] Create your first anchor from a valuable LEARNING
 -   [ ] Set up weekly TDS review process
 
-### Month 2: Protection Layer
+### Month 2: Patterns Layer
 
 -   [ ] Extract your first pattern from repeated solutions
 -   [ ] Implement [Tooling](tooling.md) scripts

@@ -20,7 +20,7 @@ Measuring TDS effectiveness helps teams understand value, identify improvements,
 
 ## Core Metrics
 
-### Discovery Metrics (Present Layer)
+### Discovery Metrics (Guides Layer)
 
 #### Learning Capture Rate
 
@@ -52,7 +52,7 @@ echo "NOTE: $(grep -r "NOTE:" --include="*.go" . | wc -l)"
 echo "FIXME: $(grep -r "FIXME:" --include="*.go" . | wc -l)"
 ```
 
-### Promotion Metrics (Past Layer)
+### Promotion Metrics (Anchors Layer)
 
 #### Promotion Rate
 

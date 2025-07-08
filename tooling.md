@@ -361,8 +361,8 @@ echo "TDS SEARCH RESULTS for: $SEARCH_TERM"
 echo "======================================="
 echo ""
 
-# Search in present layer (comments)
-echo "💬 PRESENT LAYER (Comments):"
+# Search in guides layer (comments)
+echo "💬 GUIDES LAYER (Comments):"
 echo "----------------------------"
 COMMENT_RESULTS=$(grep -rn "$SEARCH_TERM" --include="*.go" --include="*.js" --include="*.py" . | grep -v "/vendor/" | grep -v "/node_modules/" | grep -E "//.*($SEARCH_TERM)")
 if [ -n "$COMMENT_RESULTS" ]; then
@@ -372,8 +372,8 @@ else
 fi
 echo ""
 
-# Search in past layer (anchors)
-echo "⚓ PAST LAYER (Anchors):"
+# Search in anchors layer (anchors)
+echo "⚓ ANCHORS LAYER (Anchors):"
 echo "-----------------------"
 if [ -d "./anchors" ]; then
     ANCHOR_RESULTS=$(grep -rn "$SEARCH_TERM" anchors/)
@@ -387,8 +387,8 @@ else
 fi
 echo ""
 
-# Search in protection layer (patterns)
-echo "🛡️  PROTECTION LAYER (Patterns):"
+# Search in patterns layer (patterns)
+echo "🛡️  PATTERNS LAYER (Patterns):"
 echo "--------------------------------"
 if [ -d "./patterns" ]; then
     PATTERN_RESULTS=$(grep -rn "$SEARCH_TERM" patterns/)

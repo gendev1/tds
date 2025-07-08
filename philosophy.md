@@ -27,45 +27,45 @@ Traditional approaches force you to choose. TDS lets you do both.
 -   **Teams that have time** (slow-moving) often don't need extensive docs
 -   **Documentation overhead** slows teams down exactly when speed matters most
 
-## TDS Solution: Temporal Layers
+## TDS Solution: Functional Layers
 
-### Time-Based Knowledge Evolution
+### Function-Based Knowledge Organization
 
-Knowledge in software development exists in different temporal contexts:
+Knowledge in software development serves different functional purposes:
 
-**Present Knowledge** (Active Context)
+**Guides** (Active Context)
 
 -   What you're discovering right now
 -   Current problems and solutions
 -   Fresh insights and surprises
--   Immediate tactical decisions
+-   Immediate tactical decisions that guide development
 
-**Past Knowledge** (Institutional Memory)
+**Anchors** (Institutional Memory)
 
 -   Lessons learned from previous work
 -   Context about why decisions were made
 -   Historical patterns and their outcomes
--   Wisdom gained through experience
+-   Wisdom anchored for future reference
 
-**Future Knowledge** (Protective Patterns)
+**Patterns** (Protective Framework)
 
 -   Safeguards against known failure modes
 -   Reusable solutions for common problems
 -   Preventive measures based on past pain
--   Codified best practices
+-   Codified best practices that protect quality
 
 ### Natural Flow Between Layers
 
 ```
-PRESENT → PAST → FUTURE
+GUIDES → ANCHORS → PATTERNS
 (Discover) → (Learn) → (Protect)
 ```
 
 This mirrors how humans naturally process information:
 
-1. **Experience something** (present)
-2. **Reflect on it** (past)
-3. **Prepare for next time** (future)
+1. **Experience something** (guides immediate work)
+2. **Reflect on it** (anchors learning)
+3. **Prepare for next time** (patterns protect future work)
 
 ## Key Insights
 
@@ -90,9 +90,9 @@ The most valuable documentation captures **why** things are the way they are, no
 
 ### 3. Audience Specificity
 
--   **Present comments**: For current self and immediate team
--   **Past anchors**: For future self and team members
--   **Future patterns**: For anyone touching this code
+-   **Guide comments**: For current self and immediate team
+-   **Anchor documents**: For future self and team members
+-   **Pattern libraries**: For anyone touching this code
 
 ### 4. Cognitive Load Balance
 
@@ -195,7 +195,7 @@ The most valuable documentation captures **why** things are the way they are, no
 
 ### "This is just better comments"
 
-TDS is a **system** for knowledge evolution, not just commenting standards. The temporal layers and promotion pipeline create institutional memory that accumulates over time.
+TDS is a **system** for knowledge evolution, not just commenting standards. The functional layers and promotion pipeline create institutional memory that accumulates over time.
 
 ### "This will slow us down"
 

@@ -1,8 +1,8 @@
-# The Three Temporal Layers
+# The Three Functional Layers
 
-TDS organizes knowledge across three temporal contexts, each serving different purposes and audiences. Understanding these layers is crucial for effective TDS implementation.
+TDS organizes knowledge across three functional layers, each serving different purposes and audiences. Understanding these layers is crucial for effective TDS implementation.
 
-## Layer 1: Present Layer (Comments in Code)
+## Layer 1: Guides Layer (Comments in Code)
 
 ### Purpose
 
@@ -112,21 +112,21 @@ Capture immediate context, discoveries, and tactical decisions as they happen.
 
 ### Promotion Criteria
 
-**Promote to Past Layer when:**
+**Promote to Anchors Layer when:**
 
 -   Learning cost >30 minutes of debugging
 -   Insight would help future team members
 -   External service quirks discovered
 -   Pattern emerges from multiple similar issues
 
-**Keep in Present Layer when:**
+**Keep in Guides Layer when:**
 
 -   Temporary/tactical issues
 -   Personal reminders
 -   Work-in-progress notes
 -   Immediate context only
 
-## Layer 2: Past Layer (Anchor Documents)
+## Layer 2: Anchors Layer (Anchor Documents)
 
 ### Purpose
 
@@ -300,7 +300,7 @@ func ResolveUserPermissions(userID string) PermissionSet {
 - **Quarterly**: Validate external references
 - **Annually**: Consider promotion to patterns
 
-## Layer 3: Protection Layer (Patterns)
+## Layer 3: Patterns Layer (Patterns)
 
 ### Purpose
 Codify proven solutions and safeguards to prevent known failure modes.
@@ -539,21 +539,21 @@ timestamp := ToPaymentAPITimestamp(time.Now())
 
 ### Cleanup Strategies
 
-#### Present Layer Cleanup
+#### Guides Layer Cleanup
 
 -   Remove comments promoted to anchors
 -   Update stale TODOs
 -   Archive completed HACKs
 -   Promote valuable LEARNINGs
 
-#### Past Layer Maintenance
+#### Anchors Layer Maintenance
 
 -   Update anchors with new discoveries
 -   Merge similar anchors
 -   Archive outdated information
--   Promote patterns to protection layer
+-   Promote patterns to patterns layer
 
-#### Protection Layer Evolution
+#### Patterns Layer Evolution
 
 -   Refine patterns based on usage
 -   Create variations for different contexts

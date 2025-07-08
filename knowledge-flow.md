@@ -5,16 +5,16 @@ The Temporal Documentation System creates a pipeline where knowledge naturally f
 ## The Knowledge Flow Pipeline
 
 ```
-1. DISCOVER (Present Layer)
+1. DISCOVER (Guides Layer)
    ↓
-2. LEARN (Promotion to Past Layer)
+2. LEARN (Promotion to Anchors Layer)
    ↓
 3. PROTECT (Pattern Extraction)
    ↓
 4. CLEAN (Comment Cleanup)
 ```
 
-## Phase 1: Discovery (Present Layer)
+## Phase 1: Discovery (Guides Layer)
 
 ### What Happens
 
@@ -64,7 +64,7 @@ Developers encounter surprises, solve problems, and make discoveries during norm
 // NOTE: Free tier users get 30-day trial, paid users get 90-day
 ```
 
-## Phase 2: Learning (Promotion to Past Layer)
+## Phase 2: Learning (Promotion to Anchors Layer)
 
 ### When to Promote
 

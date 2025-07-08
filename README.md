@@ -4,13 +4,13 @@
 
 ## What is TDS?
 
-The Temporal Documentation System is a living knowledge management approach that captures the evolution of code understanding through three temporal layers:
+The Temporal Documentation System is a living knowledge management approach that captures the evolution of code understanding through three functional layers:
 
--   **Present Layer**: Active discoveries and current context (code comments)
--   **Past Layer**: Institutional knowledge and lessons learned (anchor documents)
--   **Protection Layer**: Safeguards against repeated mistakes (patterns)
+-   **Guides**: Active discoveries and current context (code comments that guide development)
+-   **Anchors**: Institutional knowledge and lessons learned (anchor documents)
+-   **Patterns**: Safeguards against repeated mistakes (protective patterns)
 
-Unlike traditional documentation, TDS acknowledges that code knowledge exists in different time contexts and should flow naturally from discovery to wisdom.
+Unlike traditional documentation, TDS organizes knowledge by function - what guides you now, what anchors institutional memory, and what patterns protect against known issues.
 
 ## Quick Start
 
@@ -60,9 +60,9 @@ Unlike traditional documentation, TDS acknowledges that code knowledge exists in
 ## The Knowledge Flow Pipeline
 
 ```
-1. DISCOVER (Present)
+1. DISCOVER (Guides)
    ↓
-2. LEARN (Promotion to Past)
+2. LEARN (Promotion to Anchors)
    ↓
 3. PROTECT (Pattern Extraction)
    ↓
@@ -71,9 +71,9 @@ Unlike traditional documentation, TDS acknowledges that code knowledge exists in
 
 ## Getting Started
 
-1. **Week 1**: Start with meaningful comments (Present Layer)
-2. **Week 2-4**: Begin creating anchors (Past Layer)
-3. **Month 2**: Extract your first patterns (Protection Layer)
+1. **Week 1**: Start with meaningful comments (Guides Layer)
+2. **Week 2-4**: Begin creating anchors (Anchors Layer)
+3. **Month 2**: Extract your first patterns (Patterns Layer)
 4. **Ongoing**: Maintain the cycle
 
 ## License

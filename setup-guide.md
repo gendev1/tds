@@ -67,7 +67,7 @@ Begin adding meaningful comments to your code:
 // LEARNING: External API expects camelCase, not snake_case
 ```
 
-## Week 1: Present Layer Only
+## Week 1: Guides Layer Only
 
 Focus on adding meaningful comments as you work:
 
